@@ -1,12 +1,21 @@
-# React + Vite
+# Global Groupware Solutions Ltd. Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Implemented all the functions and features mentioned using Reqres API. 
 
-Currently, two official plugins are available:
+Link to the project: <https://employ-wise-assignment-topaz.vercel.app/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Level 1
+- Created a basic authentication screen where the user can log in using credentials.
+- Credentials to be used while loggin in:
+    * email: eve.holt@reqres.in
+    * password: cityslicka
+- On successful login, the token returned by the API is stored in localStorage and user is navigated to the Users List page
 
-## Expanding the ESLint configuration
+### Level 2
+- After logging in, a paginated list of users is displayed.
+- The user's first name, last name, and avatar are displayed in a structured layout
+- Pagination is implemented for navigating through different pages of users.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Level 3
+- Each user in the list has options to Edit or Delete their details.
+- Appropriate success or error messages are displayed based on the outcome of each operation.
